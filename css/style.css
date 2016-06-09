@@ -18,7 +18,9 @@ div {
     margin: 0 auto;
     min-width: 37.5rem;
 }
-ul { list-style: none; }
+ul { 
+    list-style: none;
+    padding: 0px; }
 
 /**
  * Navigation Section
@@ -105,14 +107,7 @@ button:hover {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
-.cases .devices {
-    width: 33.3333333%;
-    display: inline;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-}
+
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
@@ -125,7 +120,32 @@ button:hover {
     width: 127px;
 }
 
+.devices {
+    list-style: none;
+    padding: 0;
+}
+
 .cases .devices > li {
     width: 33.3333333%;
     float: left;
+    text-align: center; }
+
+.social .miniicons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0; }
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+h5 {
     text-align: center;
+}
+
